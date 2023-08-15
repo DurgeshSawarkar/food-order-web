@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <script src="./Bootstrap/js/bootstrap.bundle.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Slim&display=swap" rel="stylesheet">
+
+    <link rel="icon" type="favicon" href="./MEDIA/favicon-foodie.png">
+    <title>Login Page</title>
+</head>
+
+<body>
+    <!-- nav starts -->
+    <nav class="nav-con navbar navbar-expand-lg bg-danger sticky-top">
+        <div class="container">
+            <a class="logo navbar-brand text-light " href="./index.html">f<span class="text-warning">oo</span>die</a>
+        </div>
+    </nav>
+    <!-- nav end -->
+    <!-- login starts -->
+    <section>
+        <div class="container">
+            <div class="foodie-intro row intro-con ">
+                <div class="intro-img col-sm-4 "><img src="./MEDIA/login-img.jpg" alt="food img"></div>
+                <div class="col-sm-8 login-page">
+                    <h1 class="heading text-danger"><a class="main-logo" href="../index.html">f<span
+                                class="text-warning">oo</span>die
+                        </a></h1>
+                    <h2 class="sub-heading-login">Login !</h2>
+                    <h4 class="sub-heading">WelCome Back</h4>
+                    
+                    
+                     <form action="login" method="post">
+                    <input name="mobilenumber" class="input-tag" type="number" placeholder="Mobile Number" minlength="10" maxlength="10"
+                        required>
+                    <br>
+                    <input name="password" class="input-tag" type="password" placeholder="Password" minlength="6" required>
+                    <div class="login-con">
+                        <button type="submit" name="login" class="btn btn-success login-btn">Login</button>
+                        </form>
+                        <a href="register.html" class="btn login-btn btn-warning" aria-current="page">Go To
+                            Resister</a>
+
+
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- login ends -->
+
+
+  </section>
+  
+    <!--footer-->
+    <footer class="main-footer bg-danger" id="contact">
+        <p class="text-light">All Copyrights Reseved By f<span class="text-warning">oo</span>die.com @2023</p>
+        <p class="text-light">Develop & Maintenance By <a href="https://github.com/DurgeshSawarkar"
+                target="_blank"><span class="text-warning">DURGESH SAWARKAR.</span></p></a>
+    </footer>
+    <!-- footer end -->
+</body>
+
+</html>

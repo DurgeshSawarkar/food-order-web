@@ -1,0 +1,812 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <script src="./Bootstrap/js/bootstrap.bundle.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Slim&display=swap" rel="stylesheet">
+    <link rel="icon" type="favicon" href="./MEDIA/favicon-foodie.png">
+    <title>foodie.com</title>
+     
+</head>
+
+<body>
+    <!-- page start -->
+    <!-- nav starts -->
+    <nav class="nav-con navbar navbar-expand-lg bg-danger sticky-top">
+        <div class="container-fluid">
+            <a class="logo navbar-brand text-light " href="#">f<span class="text-warning">oo</span>die</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class=" collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="menu-bar navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="home nav-link active " aria-current="page" href="#">Home</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Food menu
+                        </a>
+                        <ul class=" dropdown-menu bg-danger">
+                            <li><a class="dropdown-item" href="#BreakFast">BreakFast</a></li>
+                            <li><a class="dropdown-item" href="#Lunch">Lunch</a></li>
+                            <li><a class="dropdown-item" href="#Dinner">Dinner</a></li>
+                            <li><a class="dropdown-item" href="#Snacks">Snacks</a></li>
+                            <li><a class="dropdown-item" href="#Sweet's">Sweet's</a></li>
+                            <li><a class="dropdown-item" href="#Combo's">Combo's</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">AboutUs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-danger"  role="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Logout</a>
+                    </li>
+                </ul>
+                <form class="d-flex nav-search" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                </form>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- nav end -->
+    <!-- page -->
+    <!-- Introduction -->
+    <section>
+        <div class="container-fluid">
+            <div class="foodie-intro row intro-con ">
+                <div class="intro-img col-sm-4 ">
+                    <!-- slider -->
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner intro-slider">
+                            <div class="carousel-item active">
+                                <img src="./MEDIA/intro-slider-img01.jpg" class="d-block w-100 slider-img" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./MEDIA/intro-slider-img02.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./MEDIA/intro-slider-img03.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./MEDIA/intro-slider-img04.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./MEDIA/intro-slider-img05.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./MEDIA/intro-slider-img06.jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end slider -->
+
+                <div class="col-sm-8">
+                    <h1 class="heading text-danger"><a class="main-logo" href="./index.html">f<span
+                                class="text-warning">oo</span>die
+                        </a></h1>
+                    <h4 class="sub-heading"> Winning hearts with <span class="text-success">Fresh</span> and
+                        <span class="text-danger">Hygienic</span> food ORDER NOW.
+                    </h4>
+                    <p class="heading-text text-secondary">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Eum dolore, ad
+                        quasi error dolorum
+                        nihil voluptatum dicta eveniet incidunt eius? Lorem ipsum dolor sit amet consectetur,
+                        necessitatibus suscipit perferendis. Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- introduction ends -->
+
+    <!-- menu section -->
+    <section class="our-menu container" id="Pictures">
+        <h1 class="our-menu-header">Our Menu</h1>
+        <p class="our-menu-text">Order Now! and get additional benifites. <span class="text-success">HAPPY
+                MEAL</span> enjoy your food. </p>
+        <div class="our-menu-items">
+            <a href="#BreakFast"> <img src="./MEDIA/BreakFast-img.jpg" alt=""></a>
+        </div>
+        <div class="our-menu-items">
+            <a href="#Lunch"> <img src="./MEDIA/Lunch-img.jpg" alt=""></a>
+        </div>
+        <div class="our-menu-items">
+            <a href="#Dinner"> <img src="./MEDIA/Dinner-img.png" alt=""></a>
+        </div>
+        <div class="our-menu-items">
+            <a href="#Snacks"> <img src="./MEDIA/snacks-img.jpg" alt=""></a>
+        </div>
+        <div class="our-menu-items">
+            <a href="#Sweet's"> <img src="./MEDIA/Sweet's-img.jpg" alt=""></a>
+        </div>
+        <div class="our-menu-items">
+            <a href="#Combo's"> <img src="./MEDIA/Combo's-img.jpg" alt=""></a>
+        </div>
+    </section>
+    <!-- menu section ends -->
+
+   
+    <!-- cards breakfast -->
+
+    <section class="container card-sec" id="BreakFast">
+
+        <div class="row card-con">
+            <h1 class="menu-lable">BreakFast</h1>
+            <div class="card col-sm-4 card-item" style="width: 18rem;">
+                <img src="./MEDIA/cart-img.png" class="card-img-top" alt="...">
+                <div class="card-body">
+
+                    <form action="order" method="post">
+                        <h5 class="card-title">Option 01</h5> <input type="hidden" name="item" value="Option 01">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            ofthe card's content.</p>
+                        <h4 class="text-secondary">&#x20B9; 129</h4><input type="hidden" name="price" value="129">
+                        <input type="number" name="qty" class="quantity" maxlength="1" minlength="1" placeholder="Quntity" required>
+                        <button type="submit" class="btn btn-success">Order</button>
+                    </form>
+
+                </div>
+            </div>
+            <div class="card col-sm-4 card-item" style="width: 18rem;">
+                <img src="./MEDIA/cart-img.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <form action="order" method="post">
+                        <h5 class="card-title">Option 02</h5> <input type="hidden" name="item" value="Option 02">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            ofthe card's content.</p>
+                        <h4 class="text-secondary">&#x20B9; 200</h4><input type="hidden" name="price" value="200">
+                        <input type="number" name="qty" class="quantity" maxlength="1" minlength="1" placeholder="Quntity" required>
+                        <button type="submit" class="btn btn-success">Order</button>
+                    </form>
+                </div>
+            </div>
+            <div class="card col-sm-4 card-item" style="width: 18rem;">
+                <img src="./MEDIA/cart-img.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <form action="order" method="post">
+                        <h5 class="card-title">Option 03</h5> <input type="hidden" name="item" value="Option 03">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            ofthe card's content.</p>
+                        <h4 class="text-secondary">&#x20B9; 299</h4><input type="hidden" name="price" value="299">
+                        <input type="number" name="qty" class="quantity" maxlength="1" minlength="1" placeholder="Quntity" required>
+                        <button type="submit" class="btn btn-success">Order</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="row card-con">
+            <div class="card col-sm-4 card-item" style="width: 18rem;">
+                <img src="./MEDIA/cart-img.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <form action="order" method="post">
+                        <h5 class="card-title">Option 04</h5> <input type="hidden" name="item" value="Option 04">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            ofthe card's content.</p>
+                        <h4 class="text-secondary">&#x20B9; 190</h4><input type="hidden" name="price" value="190">
+                        <input type="number" name="qty" class="quantity" maxlength="1" minlength="1" placeholder="Quntity" required>
+                        <button type="submit" class="btn btn-success">Order</button>
+                    </form>
+                </div>
+            </div>
+            <div class="card col-sm-4 card-item" style="width: 18rem;">
+                <img src="./MEDIA/cart-img.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <form action="order" method="post">
+                        <form action="order" method="post">
+                            <h5 class="card-title">Option 05</h5> <input type="hidden" name="item" value="Option 05">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                ofthe card's content.</p>
+                            <h4 class="text-secondary">&#x20B9; 1299</h4><input type="hidden" name="price" value="1299">
+                            <input type="number" name="qty" class="quantity" maxlength="1" minlength="1" placeholder="Quntity" required>
+                            <button type="submit" class="btn btn-success">Order</button>
+                        </form>
+                </div>
+            </div>
+            <div class="card col-sm-4 card-item" style="width: 18rem;">
+                <img src="./MEDIA/cart-img.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <form action="order" method="post">
+                        <h5 class="card-title">Option 06</h5> <input type="hidden" name="item" value="Option 06">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            ofthe card's content.</p>
+                        <h4 class="text-secondary">&#x20B9; 159</h4><input type="hidden" name="price" value="159">
+                        <input type="number" name="qty" class="quantity" maxlength="1" minlength="1" placeholder="Quntity" required>
+                        <button type="submit" class="btn btn-success">Order</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- end cards breakfast -->
+    <!-- cards lunch -->
+
+    <section class="container card-sec" id="Lunch">
+        <div class="row card-con">
+            <h1 class="menu-lable">Lunch</h1>
+            <div class="card col-sm-4 card-item" style="width: 18rem;">
+                <img src="./MEDIA/cart-img.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <form action="order" method="post">
+                        <h5 class="card-title">Option 01</h5> <input type="hidden" name="item" value="Option 01">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            ofthe card's content.</p>
+                        <h4 class="text-secondary">&#x20B9; 399</h4><input type="hidden" name="price" value="399">
+                        <input type="number" name="qty" class="quantity" maxlength="1" minlength="1" placeholder="Quntity" required>
+                        <button type="submit" class="btn btn-success">Order</button>
+                    </form>
+                </div>
+            </div>
+            <div class="card col-sm-4 card-item" style="width: 18rem;">
+                <img src="./MEDIA/cart-img.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <form action="order" method="post">
+                        <h5 class="card-title">Option 02</h5> <input type="hidden" name="item" value="Option 02">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            ofthe card's content.</p>
+                        <h4 class="text-secondary">&#x20B9; 200</h4><input type="hidden" name="price" value="200">
+                        <input type="number" name="qty" class="quantity" maxlength="1" minlength="1" placeholder="Quntity" required>
+                        <button type="submit" class="btn btn-success">Order</button>
+                    </form>
+                </div>
+            </div>
+            <div class="card col-sm-4 card-item" style="width: 18rem;">
+                <img src="./MEDIA/cart-img.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <form action="order" method="post">
+                        <h5 class="card-title">Option 03</h5> <input type="hidden" name="item" value="Option 03">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            ofthe card's content.</p>
+                        <h4 class="text-secondary">&#x20B9; 329</h4><input type="hidden" name="price" value="329">
+                        <input type="number" name="qty" class="quantity" maxlength="1" minlength="1" placeholder="Quntity" required>
+                        <button type="submit" class="btn btn-success">Order</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="row card-con">
+            <div class="card col-sm-4 card-item" style="width: 18rem;">
+                <img src="./MEDIA/cart-img.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <form action="order" method="post">
+                        <h5 class="card-title">Option 04</h5> <input type="hidden" name="item" value="Option 04">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            ofthe card's content.</p>
+                        <h4 class="text-secondary">&#x20B9; 1390</h4><input type="hidden" name="price" value="1390">
+                        <input type="number" name="qty" class="quantity" maxlength="1" minlength="1" placeholder="Quntity" required>
+                        <button type="submit" class="btn btn-success">Order</button>
+                    </form>
+                </div>
+            </div>
+            <div class="card col-sm-4 card-item" style="width: 18rem;">
+                <img src="./MEDIA/cart-img.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <form action="order" method="post">
+                        <h5 class="card-title">Option 05</h5> <input type="hidden" name="item" value="Option 05">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            ofthe card's content.</p>
+                        <h4 class="text-secondary">&#x20B9; 1299</h4><input type="hidden" name="price" value="1299">
+                        <input type="number" name="qty" class="quantity" maxlength="1" minlength="1" placeholder="Quntity" required>
+                        <button type="submit" class="btn btn-success">Order</button>
+                    </form>
+                </div>
+            </div>
+            <div class="card col-sm-4 card-item" style="width: 18rem;">
+                <img src="./MEDIA/cart-img.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <form action="order" method="post">
+                        <h5 class="card-title">Option 06</h5> <input type="hidden" name="item" value="Option 06">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            ofthe card's content.</p>
+                        <h4 class="text-secondary">&#x20B9; 599</h4><input type="hidden" name="price" value="599">
+                        <input type="number" name="qty" class="quantity" maxlength="1" minlength="1" placeholder="Quntity" required>
+                        <button type="submit" class="btn btn-success">Order</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- end cards Lunch -->
+    <!-- cards Dinner -->
+
+    <section class="container-fluid card-sec" id="Dinner">
+        <div class="row card-con">
+            <h1 class="menu-lable">Dinner</h1>
+            <div class="card col-sm-4 card-item" style="width: 18rem;">
+                <img src="./MEDIA/cart-img.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <form action="order" method="post">
+                        <h5 class="card-title">Option 01</h5> <input type="hidden" name="item" value="Option 01">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            ofthe card's content.</p>
+                        <h4 class="text-secondary">&#x20B9; 1239</h4><input type="hidden" name="price" value="1239">
+                        <input type="number" name="qty" class="quantity" maxlength="1" minlength="1" placeholder="Quntity" required>
+                        <button type="submit" class="btn btn-success">Order</button>
+                    </form>
+                </div>
+            </div>
+            <div class="card col-sm-4 card-item" style="width: 18rem;">
+                <img src="./MEDIA/cart-img.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <form action="order" method="post">
+                        <h5 class="card-title">Option 02</h5> <input type="hidden" name="item" value="Option 02">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            ofthe card's content.</p>
+                        <h4 class="text-secondary">&#x20B9; 200</h4><input type="hidden" name="price" value="200">
+                        <input type="number" name="qty" class="quantity" maxlength="1" minlength="1" placeholder="Quntity" required>
+                        <button type="submit" class="btn btn-success">Order</button>
+                    </form>
+                </div>
+            </div>
+            <div class="card col-sm-4 card-item" style="width: 18rem;">
+                <img src="./MEDIA/cart-img.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <form action="order" method="post">
+                        <h5 class="card-title">Option 03</h5> <input type="hidden" name="item" value="Option 03">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            ofthe card's content.</p>
+                        <h4 class="text-secondary">&#x20B9; 399</h4><input type="hidden" name="price" value="399">
+                        <input type="number" name="qty" class="quantity" maxlength="1" minlength="1" placeholder="Quntity" required>
+                        <button type="submit" class="btn btn-success">Order</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="row card-con">
+            <div class="card col-sm-4 card-item" style="width: 18rem;">
+                <img src="./MEDIA/cart-img.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <form action="order" method="post">
+                        <h5 class="card-title">Option 04</h5> <input type="hidden" name="item" value="Option 04">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            ofthe card's content.</p>
+                        <h4 class="text-secondary">&#x20B9; 1390</h4><input type="hidden" name="price" value="1390">
+                        <input type="number" name="qty" class="quantity" maxlength="1" minlength="1" placeholder="Quntity" required>
+                        <button type="submit" class="btn btn-success">Order</button>
+                    </form>
+                </div>
+            </div>
+            <div class="card col-sm-4 card-item" style="width: 18rem;">
+                <img src="./MEDIA/cart-img.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <form action="order" method="post">
+                        <h5 class="card-title">Option 05</h5> <input type="hidden" name="item" value="Option 05">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            ofthe card's content.</p>
+                        <h4 class="text-secondary">&#x20B9; 199</h4><input type="hidden" name="price" value="199">
+                        <input type="number" name="qty" class="quantity" maxlength="1" minlength="1" placeholder="Quntity" required>
+                        <button type="submit" class="btn btn-success">Order</button>
+                    </form>
+                </div>
+            </div>
+            <div class="card col-sm-4 card-item" style="width: 18rem;">
+                <img src="./MEDIA/cart-img.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <form action="order" method="post">
+                        <h5 class="card-title">Option 06</h5> <input type="hidden" name="item" value="Option 06">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            ofthe card's content.</p>
+                        <h4 class="text-secondary">&#x20B9; 599</h4><input type="hidden" name="price" value="599">
+                        <input type="number" name="qty" class="quantity" maxlength="1" minlength="1" placeholder="Quntity" required>
+                        <button type="submit" class="btn btn-success">Order</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- end cards Dinner -->
+
+    <!-- cards Snacks -->
+
+    <section class="container-fluid card-sec" id="Snacks">
+        <div class="row card-con">
+            <h1 class="menu-lable">Snacks</h1>
+            <div class="card col-sm-4 card-item" style="width: 18rem;">
+                <img src="./MEDIA/cart-img.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <form action="order" method="post">
+                        <h5 class="card-title">Option 01</h5> <input type="hidden" name="item" value="Option 01">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            ofthe card's content.</p>
+                        <h4 class="text-secondary">&#x20B9; 299</h4><input type="hidden" name="price" value="299">
+                        <input type="number" name="qty" class="quantity" maxlength="1" minlength="1" placeholder="Quntity" required>
+                        <button type="submit" class="btn btn-success">Order</button>
+                    </form>
+                </div>
+            </div>
+            <div class="card col-sm-4 card-item" style="width: 18rem;">
+                <img src="./MEDIA/cart-img.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <form action="order" method="post">
+                        <h5 class="card-title">Option 02</h5> <input type="hidden" name="item" value="Option 02">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            ofthe card's content.</p>
+                        <h4 class="text-secondary">&#x20B9; 320</h4><input type="hidden" name="price" value="320">
+                        <input type="number" name="qty" class="quantity" maxlength="1" minlength="1" placeholder="Quntity" required>
+                        <button type="submit" class="btn btn-success">Order</button>
+                    </form>
+                </div>
+            </div>
+            <div class="card col-sm-4 card-item" style="width: 18rem;">
+                <img src="./MEDIA/cart-img.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <form action="order" method="post">
+                        <h5 class="card-title">Option 03</h5> <input type="hidden" name="item" value="Option 03">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            ofthe card's content.</p>
+                        <h4 class="text-secondary">&#x20B9; 329</h4><input type="hidden" name="price" value="329">
+                        <input type="number" name="qty" class="quantity" maxlength="1" minlength="1" placeholder="Quntity" required>
+                        <button type="submit" class="btn btn-success">Order</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="row card-con">
+            <div class="card col-sm-4 card-item" style="width: 18rem;">
+                <img src="./MEDIA/cart-img.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <form action="order" method="post">
+                        <h5 class="card-title">Option 04</h5> <input type="hidden" name="item" value="Option 04">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            ofthe card's content.</p>
+                        <h4 class="text-secondary">&#x20B9; 390</h4><input type="hidden" name="price" value="390">
+                        <input type="number" name="qty" class="quantity" maxlength="1" minlength="1" placeholder="Quntity" required>
+                        <button type="submit" class="btn btn-success">Order</button>
+                    </form>
+                </div>
+            </div>
+            <div class="card col-sm-4 card-item" style="width: 18rem;">
+                <img src="./MEDIA/cart-img.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <form action="order" method="post">
+                        <h5 class="card-title">Option 05</h5> <input type="hidden" name="item" value="Option 05">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            ofthe card's content.</p>
+                        <h4 class="text-secondary">&#x20B9; 3299</h4><input type="hidden" name="price" value="3299">
+                        <input type="number" name="qty" class="quantity" maxlength="1" minlength="1" placeholder="Quntity" required>
+                        <button type="submit" class="btn btn-success">Order</button>
+                    </form>
+                </div>
+            </div>
+            <div class="card col-sm-4 card-item" style="width: 18rem;">
+                <img src="./MEDIA/cart-img.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <form action="order" method="post">
+                        <h5 class="card-title">Option 06</h5> <input type="hidden" name="item" value="Option 06">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            ofthe card's content.</p>
+                        <h4 class="text-secondary">&#x20B9; 1599</h4><input type="hidden" name="price" value="1599">
+                        <input type="number" name="qty" class="quantity" maxlength="1" minlength="1" placeholder="Quntity" required>
+                        <button type="submit" class="btn btn-success">Order</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- end cards Snacks -->
+    <!-- cards Sweet's -->
+
+    <section class="container-fluid card-sec" id="Sweet's">
+        <div class="row card-con">
+            <h1 class="menu-lable">Sweet's</h1>
+            <div class="card col-sm-4 card-item" style="width: 18rem;">
+                <img src="./MEDIA/cart-img.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <form action="order" method="post">
+                        <h5 class="card-title">Option 01</h5> <input type="hidden" name="item" value="Option 01">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            ofthe card's content.</p>
+                        <h4 class="text-secondary">&#x20B9; 199</h4><input type="hidden" name="price" value="199">
+                        <input type="number" name="qty" class="quantity" maxlength="1" minlength="1" placeholder="Quntity" required>
+                        <button type="submit" class="btn btn-success">Order</button>
+                    </form>
+                </div>
+            </div>
+            <div class="card col-sm-4 card-item" style="width: 18rem;">
+                <img src="./MEDIA/cart-img.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <form action="order" method="post">
+                        <h5 class="card-title">Option 02</h5> <input type="hidden" name="item" value="Option 02">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            ofthe card's content.</p>
+                        <h4 class="text-secondary">&#x20B9; 400</h4><input type="hidden" name="price" value="400">
+                        <input type="number" name="qty" class="quantity" maxlength="1" minlength="1" placeholder="Quntity" required>
+                        <button type="submit" class="btn btn-success">Order</button>
+                    </form>
+                </div>
+            </div>
+            <div class="card col-sm-4 card-item" style="width: 18rem;">
+                <img src="./MEDIA/cart-img.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <form action="order" method="post">
+                        <h5 class="card-title">Option 03</h5> <input type="hidden" name="item" value="Option 03">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            ofthe card's content.</p>
+                        <h4 class="text-secondary">&#x20B9; 899</h4><input type="hidden" name="price" value="899">
+                        <input type="number" name="qty" class="quantity" maxlength="1" minlength="1" placeholder="Quntity" required>
+                        <button type="submit" class="btn btn-success">Order</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="row card-con">
+            <div class="card col-sm-4 card-item" style="width: 18rem;">
+                <img src="./MEDIA/cart-img.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <form action="order" method="post">
+                        <h5 class="card-title">Option 04</h5> <input type="hidden" name="item" value="Option 04">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            ofthe card's content.</p>
+                        <h4 class="text-secondary">&#x20B9; 1390</h4><input type="hidden" name="price" value="1390">
+                        <input type="number" name="qty" class="quantity" maxlength="1" minlength="1" placeholder="Quntity" required>
+                        <button type="submit" class="btn btn-success">Order</button>
+                    </form>
+                </div>
+            </div>
+            <div class="card col-sm-4 card-item" style="width: 18rem;">
+                <img src="./MEDIA/cart-img.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <form action="order" method="post">
+                        <h5 class="card-title">Option 05</h5> <input type="hidden" name="item" value="Option 05">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            ofthe card's content.</p>
+                        <h4 class="text-secondary">&#x20B9; 1199</h4><input type="hidden" name="price" value="1199">
+                        <input type="number" name="qty" class="quantity" maxlength="1" minlength="1" placeholder="Quntity" required>
+                        <button type="submit" class="btn btn-success">Order</button>
+                    </form>
+                </div>
+            </div>
+            <div class="card col-sm-4 card-item" style="width: 18rem;">
+                <img src="./MEDIA/cart-img.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <form action="order" method="post">
+                        <h5 class="card-title">Option 06</h5> <input type="hidden" name="item" value="Option 06">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            ofthe card's content.</p>
+                        <h4 class="text-secondary">&#x20B9; 599</h4><input type="hidden" name="price" value="599">
+                        <input type="number" name="qty" class="quantity" maxlength="1" minlength="1" placeholder="Quntity" required>
+                        <button type="submit" class="btn btn-success">Order</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- end cards Sweet's -->
+    <!-- cards Combo,s -->
+
+    <section class="container-fluid card-sec" id="Combo's">
+        <div class="row card-con">
+            <h1 class="menu-lable">Combo's</h1>
+            <div class="card col-sm-4 card-item" style="width: 18rem;">
+                <img src="./MEDIA/cart-img.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <form action="order" method="post">
+                        <h5 class="card-title">Option 01</h5> <input type="hidden" name="item" value="Option 01">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            ofthe card's content.</p>
+                        <h4 class="text-secondary">&#x20B9; 1999</h4><input type="hidden" name="price" value="1999">
+                        <input type="number" name="qty" class="quantity" maxlength="1" minlength="1" placeholder="Quntity" required>
+                        <button type="submit" class="btn btn-success">Order</button>
+                    </form>
+                </div>
+            </div>
+            <div class="card col-sm-4 card-item" style="width: 18rem;">
+                <img src="./MEDIA/cart-img.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <form action="order" method="post">
+                        <h5 class="card-title">Option 02</h5> <input type="hidden" name="item" value="Option 02">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            ofthe card's content.</p>
+                        <h4 class="text-secondary">&#x20B9; 3200</h4><input type="hidden" name="price" value="3200">
+                        <input type="number" name="qty" class="quantity" maxlength="1" minlength="1" placeholder="Quntity" required>
+                        <button type="submit" class="btn btn-success">Order</button>
+                    </form>
+                </div>
+            </div>
+            <div class="card col-sm-4 card-item" style="width: 18rem;">
+                <img src="./MEDIA/cart-img.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <form action="order" method="post">
+                        <h5 class="card-title">Option 03</h5> <input type="hidden" name="item" value="Option 03">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            ofthe card's content.</p>
+                        <h4 class="text-secondary">&#x20B9; 3299</h4><input type="hidden" name="price" value="3299">
+                        <input type="number" name="qty" class="quantity" maxlength="1" minlength="1" placeholder="Quntity" required>
+                        <button type="submit" class="btn btn-success">Order</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="row card-con">
+            <div class="card col-sm-4 card-item" style="width: 18rem;">
+                <img src="./MEDIA/cart-img.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <form action="order" method="post">
+                        <h5 class="card-title">Option 04</h5> <input type="hidden" name="item" value="Option 04">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            ofthe card's content.</p>
+                        <h4 class="text-secondary">&#x20B9; 1390</h4><input type="hidden" name="price" value="1390">
+                        <input type="number" name="qty" class="quantity" maxlength="1" minlength="1" placeholder="Quntity" required>
+                        <button type="submit" class="btn btn-success">Order</button>
+                    </form>
+                </div>
+            </div>
+            <div class="card col-sm-4 card-item" style="width: 18rem;">
+                <img src="./MEDIA/cart-img.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <form action="order" method="post">
+                        <h5 class="card-title">Option 05</h5> <input type="hidden" name="item" value="Option 05">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            ofthe card's content.</p>
+                        <h4 class="text-secondary">&#x20B9; 1299</h4><input type="hidden" name="price" value="1299">
+                        <input type="number" name="qty" class="quantity" maxlength="1" minlength="1" placeholder="Quntity" required>
+                        <button type="submit" class="btn btn-success">Order</button>
+                    </form>
+                </div>
+            </div>
+            <div class="card col-sm-4 card-item" style="width: 18rem;">
+                <img src="./MEDIA/cart-img.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <form action="order" method="post">
+                        <h5 class="card-title">Option 06</h5> <input type="hidden" name="item" value="Option 06">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            ofthe card's content.</p>
+                        <h4 class="text-secondary">&#x20B9; 5599</h4><input type="hidden" name="price" value="5599">
+                        <input type="number" name="qty" class="quantity" maxlength="1" minlength="1" placeholder="Quntity" required>
+                        <button type="submit" class="btn btn-success">Order</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- end cards Combo's -->
+    
+       <!-- greeting -->
+    <section class="greeting-info container">
+        <div class="row">
+            <div class="col-md-3 greeting-con">
+                <img class="greeting-img" src="./MEDIA/greeting-img.jpg" alt="img">
+            </div>
+            <div class="col-md-9 ">
+                <h1 class="thank-note thank-note-home ">Thank You for visit.</h1>
+                <h3>Fresh food cooked on every order for YOU.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus est quasi magni impedit
+                    consequuntur consectetur nostrum facere ex aliquam eveniet maxime optio, placeat consequatur sunt
+                    aperiam enim! Quam, deleniti quisquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
+                    laborum repellendus vitae harum magni eius, neque provident expedita sint dolore impedit dolores, in
+                    natus. Expedita nulla soluta officia recusandae animi placeat quae eaque quod distinctio! Quibusdam
+                    aperiam, laboriosam molestiae aliquid itaque placeat, magni adipisci vero voluptatibus incidunt,
+                    voluptatem labore dolores. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur
+                    repellendus tenetur iusto tempora odit corporis voluptatem, eligendi rerum. Impedit quam odio dicta
+                    aperiam ducimus error, doloribus hic minima aliquam nihil.</p>
+                <div class="container hashtags">
+                    <div class="row">
+                        <h3 class="col-sm-3">#foodie</h3>
+                        <h3 class="col-sm-3">#Hygienic</h3>
+                        <h3 class="col-sm-3">#24Ã7ForYou</h3>
+                        <h3 class="col-sm-3">#FreshCooked</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end greeting -->
+    <!-- info -->
+    <section class="foodie-info container">
+        <div class="row ">
+            <div class="col-md-4 info-part">
+                <img class="info-img" src="./MEDIA/outlet-img.png" alt="img">
+                <h3 class="text-danger">350+ Outlets Across India</h3>
+                <p>Lorem ipsum duo odio dolore ipsam quod rerum saepe
+                    illo
+                    commodi eos dolor culpa voluptas eligendi fugiat eum, similique exercitationem vel.
+                    Minima?</p>
+            </div>
+            <div class="col-md-4 info-part">
+                <img class="info-img" src="./MEDIA/rating-img.png" alt="img">
+                <h3 class="text-danger">4.4 Rating</h3>
+                <p>Lorem ipsum duo odio dolore ipsam quod rerum saepe
+                    illo
+                    commodi eos dolor culpa voluptas eligendi fugiat eum, similique exercitationem vel.
+                    Minima?</p>
+            </div>
+            <div class="col-md-4 info-part">
+                <img class="info-img" src="./MEDIA/customer-img.png" alt="img">
+                <h3 class="text-danger">50L+ Customers</h3>
+                <p>Lorem ipsum duo odio dolore ipsam quod rerum saepe
+                    illo
+                    commodi eos dolor culpa voluptas eligendi fugiat eum, similique exercitationem vel.</p>
+            </div>
+        </div>
+    </section>
+    <!-- end info -->
+    <!-- outro -->
+    <section>
+        <div class="container-fluid">
+            <div class="foodie-intro foodie-menu row intro-con ">
+                <div class="col-md-12">
+                    <h1 class="heading text-danger"><a class="main-logo" href="#">f<span
+                                class="text-warning">oo</span>die
+                        </a></h1>
+                    <h4 class="sub-heading"> Winning hearts with <span class="text-success">Fresh</span> and
+                        <span class="text-danger">Hygienic</span> food ORDER NOW.
+                    </h4>
+                    <h6 class="text-success menu-text">Try our Combo's recomended for all types of food.</h6>
+                    <p class="menu-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum neque sed
+                        aliquid, sapiente
+                        facilis ratione dolorem deleniti maxime vel? Nam, tenetur odio fugit placeat eveniet vitae quo
+                        cum voluptates animi.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end outro -->
+    <!-- end page -->
+    <!--footer-->
+    <footer class="main-footer bg-danger" id="contact">
+        <p class="text-light">All Copyrights Reseved By f<span class="text-warning">oo</span>die.com
+            @2023</p>
+        <p class="text-light">Develop & Maintenance By <a href="https://github.com/DurgeshSawarkar" target="_blank">
+                <span class="text-warning">DURGESH SAWARKAR.</span></p></a>
+    </footer>
+    <!-- footer end -->
+    
+    <!-- Modal -->
+    <div class="modal fade " id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-warning text-center" id="staticBackdropLabel">Want To Logout!</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+                </div>
+                <div class="modal-footer">
+					<button type="button" class="btn btn-success login-btn" data-bs-dismiss="modal">Close</button>
+                    <a href="logout.jsp" class="btn btn-danger login-btn">Logout</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- end modal -->
+
+  <script type="text/javascript">
+        window.history.forward();
+        function noBack() {
+            window.history.forward();
+        }
+    </script>
+
+
+</body>
+<!-- page ends -->
+
+</html>
